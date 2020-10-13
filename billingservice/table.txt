@@ -1,0 +1,24 @@
+CREATE TABLE `Billing` (
+  `bill_id` int NOT NULL AUTO_INCREMENT,
+  `total` decimal(8,3) NOT NULL,
+  `billingdate` varchar(50) DEFAULT NULL,
+   PRIMARY KEY (`bill_id`)
+);
+ select * from Billing;
+ drop table Billing;
+truncate table Billing;
+delete from Billing;
+
+CREATE TABLE `Items` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `billing_id` int NOT NULL,
+  `code` varchar(50) DEFAULT NULL,
+  `price` decimal(8,3) NOT NULL,
+  `quantity` decimal(8,3) NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `billing_id` (`billing_id`),
+  CONSTRAINT `items_ibfk_1` FOREIGN KEY (`billing_id`) REFERENCES `Billing` (`bill_id`)
+) ;
+ select * from Items;
+ truncate table Items;
+  drop table Items;
