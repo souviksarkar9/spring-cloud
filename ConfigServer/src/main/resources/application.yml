@@ -1,0 +1,1 @@
+spring:  application:    name: configserver  rabbitmq:    host: localhost      port: 5672    username: guest    password: guest      cloud:    config:      server:        git:          uri: file:///C:/Users/Souvik/Desktop/Study/Spring Cloud/configserver-localgitrepo    server:  port: 8888
