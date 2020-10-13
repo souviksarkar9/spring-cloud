@@ -1,0 +1,27 @@
+{
+	"items": [
+		{
+			"code": "item 1",
+			"quantity": 10,
+			"price": 0
+		},
+		{
+			"code": "item 2",
+			"quantity": 10,
+			"price": 0
+		},
+		{
+			"code": "item 3",
+			"quantity":2,
+			"price": 0			
+		},
+		{
+			"code": "item 4",
+			"quantity": 1,
+			"price": 0
+		}
+	],
+	"total": 0,
+	"billingdate": "02282020"
+}
+

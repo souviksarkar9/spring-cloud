@@ -1,0 +1,26 @@
+ 
+server:
+  port: 8060
+  
+spring:
+  application:
+    name: billingservice
+  datasource:
+    password: root
+    url: jdbc:mysql://localhost:3306/mydb?useSSL=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    username: root
+  jpa:
+    show-sql: true
+    
+    
+priceapi:
+  services:
+    url: http://localhost:8070/priceapi/prices/
+
+taxapi:
+  gettax:
+    url: http://localhost:8080/taxapi/taxpercentage?amount=    
+         
+      
+      
+      
