@@ -1,0 +1,7 @@
+CREATE TABLE `price` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `code` varchar(50) DEFAULT NULL,
+  `amount` decimal(8,3) NOT NULL,  
+  PRIMARY KEY (`id`)
+);
+select * from price;
