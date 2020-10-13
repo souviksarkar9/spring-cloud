@@ -1,0 +1,13 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: taxservice
+  datasource:
+    password: root
+    url: jdbc:mysql://localhost:3306/mydb?useSSL=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    username: root
+  jpa:
+    show-sql: true
+
+    
