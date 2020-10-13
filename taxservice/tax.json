@@ -1,0 +1,15 @@
+[
+	{
+		"minamount": 100,
+		"maxamount": 500,
+		"taxpercentage": 5
+	},
+	{
+		"minamount": 501,
+		"maxamount": 1000,
+		"taxpercentage": 15
+	}
+]
+
+
+

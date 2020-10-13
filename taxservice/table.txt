@@ -1,0 +1,7 @@
+CREATE TABLE `tax` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `minamount` decimal(8,3) NOT NULL,
+  `maxamount` decimal(8,3) NOT NULL,
+  `taxpercentage` decimal(8,3) NOT NULL,
+  PRIMARY KEY (`id`)
+);
